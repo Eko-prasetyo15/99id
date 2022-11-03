@@ -11,3 +11,163 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.card {
+margin: auto;
+box-shadow: 0px 4px 16px rgba(11, 17, 52, 0.2);
+border-radius: 4px;
+}
+
+.card-image {
+width: 100%;
+height: 272px;
+}
+
+/* .card-body {
+  display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 16px;
+
+position: absolute;
+left: 24px;
+right: 24px;
+
+top: 296px;
+} */
+
+.img{
+  position: absolute;
+left: 53.3%;
+right: 0%;
+top: 16.04%;
+bottom: 0%;
+}
+.title {
+  font-family: 'Avenir Next';
+  color: #1A2258;
+font-style: normal;
+font-weight: 600;
+font-size: 23px;
+line-height: 31px;
+}
+.title-address {
+  font-family: 'Avenir Next';
+  color: #787D9C;
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+}
+.lil-desc {
+  display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 12px;
+
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+.dflex {
+  display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 16px;
+
+align-items: flex-start;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+.address {
+  display: flex;
+flex-direction: column;
+text-align: left;
+}
+.availibity {
+    font-family: 'Avenir Next';
+    color: #1A2258;
+font-style: normal;
+font-weight: 400;
+text-align: left;
+font-size: 16px;
+}
+
+.psf {
+  font-family: 'Avenir Next';
+  color: #1A2258;
+font-style: normal;
+font-weight: 600;
+font-size: 19px;
+line-height: 31px;
+text-align: left;
+
+}
+
+.desc-btn {
+ font-family: 'Avenir Next';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 22px;
+text-align: right !important;
+cursor: pointer;
+color: #216BFF;
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+/* @media only screen and (max-width: 600px) {
+ .card {
+ 
+width:100%;
+
+}
+} */
+.ribon {
+ display: flex;
+flex-direction: row;
+align-items: center;
+padding: 2.5px 2px;
+
+width: 124px;
+height: 21px;
+
+/* Pink/Pink 500 */
+
+background: #FF72B6;
+border-radius: 2px 0px 0px 0px;
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+color:#FFFFFF
+
+}
+.bungkus {
+  display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+
+position: absolute;
+width: 133.48px;
+height: 25px;
+left: 0px;
+top: 10px;
+}
